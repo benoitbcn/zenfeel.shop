@@ -7,4 +7,4 @@ a{color:var(--brand)}a:hover{text-decoration:underline}.container{max-width:1200
 header{position:sticky;top:0;z-index:40;background:#0b0f14cc;border-bottom:1px solid #1a2330}.nav{display:flex;justify-content:space-between;align-items:center;padding:12px 0}
 .btn{display:inline-block;border:1px solid #223145;padding:10px 14px;border-radius:12px;color:#eaeef4;background:#162233}.cta{background:var(--brand);color:#0b0f14;border:none;padding:10px 16px;border-radius:12px;font-weight:700}
 .small{font-size:13px;color:var(--muted)}.tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}.tag{font-size:12px;border:1px solid #233247;background:#112033;padding:3px 8px;border-radius:999px;color:#a9b5c1}
-.gallery img{border-radius:12px;border:1px solid #1b2431;background:#0e1520}.notice{padding:12px;border:1px dashed #2b3c52;border-radius:12px;background:#0f1723;color:#a9b5c1}
+.gallery img{border-radius:12px;border:1px solid #1b2431;background:#0e1520;display:block;width:100%;height:auto}.notice{padding:12px;border:1px dashed #2b3c52;border-radius:12px;background:#0f1723;color:#a9b5c1}
