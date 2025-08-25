@@ -1,0 +1,16 @@
+Zenfeel — Stock image integration
+-----------------------------------
+The site uses lifestyle photos pulled at runtime from Unsplash Source per collection theme.
+License: Unsplash License — free for commercial and non-commercial uses, attribution not required (appreciated).
+
+Links:
+- Unsplash License: https://unsplash.com/license
+- Terms: https://unsplash.com/terms
+
+Implementation:
+- Each <img> points to an Unsplash Source URL like: https://source.unsplash.com/1200x900/?matcha,bamboo,steam&sig=<hash>
+- If a remote call fails, a local lightweight placeholder /assets/img/<slug>.webp is shown as fallback.
+
+To self-host later:
+1) Download chosen images and save them at /assets/img/<slug>.webp (1200x900 WebP, q~70).
+2) Replace the <img> src to the local path (simple find/replace or keep Unsplash as backup).
