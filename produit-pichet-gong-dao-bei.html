@@ -1,0 +1,40 @@
+<!doctype html><html lang="fr"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pichet « gong dao bei » — Zenfeel</title>
+<meta name="description" content="Zenfeel — Catalogue statique.">
+<link rel="stylesheet" href="assets/styles.css">
+</head><body>
+<header><div class="container nav">
+  <a class="brand" href="index.html"><img src="assets/img/default.jpg" alt="Zenfeel" /></a>
+  <nav class="small">
+    <a href="collections.html">Collections</a> ·
+    <a href="produits.html">Tous les produits</a> ·
+    <a href="faq.html">FAQ</a>
+  </nav>
+  <input id="search" type="search" placeholder="Rechercher un article…" style="max-width:420px">
+</div></header>
+<script>
+document.addEventListener("input",e=>{
+ if(e.target.id!=="search")return;
+ const q=e.target.value.toLowerCase();
+ document.querySelectorAll("[data-title]").forEach(el=>{el.style.display=(el.dataset.title||"").toLowerCase().includes(q)?"":"none";});
+});
+</script>
+
+<section><div class="container">
+  <div class="kicker"><a href="index.html" class="small">Accueil</a> · <a href="collections.html" class="small">Collections</a> · <a href="collection-the-ceremonie.html" class="small">Thé & Cérémonie</a></div>
+  <div class="hero">
+    <img src="assets/img/pichet-gong-dao-bei.jpg" alt="Pichet « gong dao bei »">
+    <div class="prose">
+      <h1>Pichet « gong dao bei »</h1>
+      <p>Égalise la liqueur avant service. Verre borosilicate.</p>
+      <ul><li>Matériaux sélectionnés et finitions soignées</li><li>Design épuré, tons naturels, esprit zen</li><li>Expédition soignée, emballages recyclables</li></ul>
+      <p class="small">Fiche statique de démonstration (sans prix). Pour commander : contactez votre revendeur.</p>
+      <p><a class="btn" href="collection-the-ceremonie.html">← Retour Thé & Cérémonie</a></p>
+    </div>
+  </div>
+</div></section>
+
+<footer><div class="container small">© 2025 Zenfeel — Site statique. Images générées localement.</div></footer>
+<script src="assets/fix-local.js"></script>
+</body></html>
