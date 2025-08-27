@@ -1,83 +1,104 @@
-<!doctype html><html lang="fr"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+﻿<!doctype html><html lang="fr"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Coffrets & Cadeaux — Zenfeel</title>
-<meta name="description" content="Zenfeel — Catalogue statique.">
+<meta name="description" content="Collection : Coffrets & Cadeaux">
 <link rel="stylesheet" href="assets/styles.css">
 </head><body>
 <header><div class="container nav">
-  <a class="brand" href="index.html"><img src="assets/img/default.jpg" alt="Zenfeel" /></a>
-  <nav class="small">
-    <a href="collections.html">Collections</a> ·
-    <a href="produits.html">Tous les produits</a> ·
-    <a href="faq.html">FAQ</a>
-  </nav>
-  <input id="search" type="search" placeholder="Rechercher un article…" style="max-width:420px">
+<a class="brand" href="index.html"><img src="assets/brand/zenfeel-wordmark.svg" alt="Zenfeel"/></a>
+<nav>
+  <a href="collections.html">Collections</a>
+  <a href="produits.html">Tous les produits</a>
+  <a href="guides.html">Guides</a>
+  <a href="marque.html">Logos</a>
+  <a href="faq.html">FAQ</a>
+  <a href="contact.html">Contact</a>
+</nav>
 </div></header>
-<script>
-document.addEventListener("input",e=>{
- if(e.target.id!=="search")return;
- const q=e.target.value.toLowerCase();
- document.querySelectorAll("[data-title]").forEach(el=>{el.style.display=(el.dataset.title||"").toLowerCase().includes(q)?"":"none";});
-});
-</script>
 
-<section><div class="container">
-  <div class="kicker"><a href="index.html" class="small">Accueil</a> · <a href="collections.html" class="small">Collections</a> · Coffrets & Cadeaux</div>
+<section class='section'><div class='container'>
+  <div class='kicker'>Collection</div>
   <h1>Coffrets & Cadeaux</h1>
-  <p class="small">Coffrets thématiques & cartes cadeaux.</p>
-  <div class="grid cols-4">
+  <p class='small'>Coffrets thématiques & cartes cadeaux.</p>
+  <div class='grid cols-3'>
     
-<article class="card" data-title="Coffret méditation — Débutant">
-  <a href="produit-coffret-meditation-debutant.html"><img class="thumb" src="assets/img/coffret-meditation-debutant.jpg" alt="Coffret méditation — Débutant"></a>
-  <div class="content">
-    <h3><a href="produit-coffret-meditation-debutant.html">Coffret méditation — Débutant</a></h3>
-    <div class="small">Coffrets & Cadeaux</div>
+<article class='card'>
+  <a href='produit-carte-cadeau-zenfeel.html'>
+    <img src='assets/img/carte-cadeau-zenfeel.jpg' alt='Carte cadeau zenfeel' loading='lazy'>
+  </a>
+  <div class='content'>
+    <h3><a href='produit-carte-cadeau-zenfeel.html'>Carte cadeau zenfeel</a></h3>
+    <div class='small'>Sélection Zenfeel</div>
   </div>
 </article>
 
-<article class="card" data-title="Coffret découverte encens">
-  <a href="produit-coffret-decouverte-encens.html"><img class="thumb" src="assets/img/coffret-decouverte-encens.jpg" alt="Coffret découverte encens"></a>
-  <div class="content">
-    <h3><a href="produit-coffret-decouverte-encens.html">Coffret découverte encens</a></h3>
-    <div class="small">Coffrets & Cadeaux</div>
+<article class='card'>
+  <a href='produit-coffret-ambiance-calme.html'>
+    <img src='assets/img/coffret-ambiance-calme.jpg' alt='Coffret ambiance calme' loading='lazy'>
+  </a>
+  <div class='content'>
+    <h3><a href='produit-coffret-ambiance-calme.html'>Coffret ambiance calme</a></h3>
+    <div class='small'>Sélection Zenfeel</div>
   </div>
 </article>
 
-<article class="card" data-title="Coffret ambiance calme">
-  <a href="produit-coffret-ambiance-calme.html"><img class="thumb" src="assets/img/coffret-ambiance-calme.jpg" alt="Coffret ambiance calme"></a>
-  <div class="content">
-    <h3><a href="produit-coffret-ambiance-calme.html">Coffret ambiance calme</a></h3>
-    <div class="small">Coffrets & Cadeaux</div>
+<article class='card'>
+  <a href='produit-coffret-rituel-bain.html'>
+    <img src='assets/img/coffret-rituel-bain.jpg' alt='Coffret rituel bain' loading='lazy'>
+  </a>
+  <div class='content'>
+    <h3><a href='produit-coffret-rituel-bain.html'>Coffret rituel bain</a></h3>
+    <div class='small'>Sélection Zenfeel</div>
   </div>
 </article>
 
-<article class="card" data-title="Coffret relaxation bougie + spray">
-  <a href="produit-coffret-relaxation-bougie-spray.html"><img class="thumb" src="assets/img/coffret-relaxation-bougie-spray.jpg" alt="Coffret relaxation bougie + spray"></a>
-  <div class="content">
-    <h3><a href="produit-coffret-relaxation-bougie-spray.html">Coffret relaxation bougie + spray</a></h3>
-    <div class="small">Coffrets & Cadeaux</div>
+<article class='card'>
+  <a href='produit-trousse-etanche-spa.html'>
+    <img src='assets/img/trousse-etanche-spa.jpg' alt='Trousse etanche spa' loading='lazy'>
+  </a>
+  <div class='content'>
+    <h3><a href='produit-trousse-etanche-spa.html'>Trousse etanche spa</a></h3>
+    <div class='small'>Sélection Zenfeel</div>
   </div>
 </article>
 
-<article class="card" data-title="Coffret rituel bain">
-  <a href="produit-coffret-rituel-bain.html"><img class="thumb" src="assets/img/coffret-rituel-bain.jpg" alt="Coffret rituel bain"></a>
-  <div class="content">
-    <h3><a href="produit-coffret-rituel-bain.html">Coffret rituel bain</a></h3>
-    <div class="small">Coffrets & Cadeaux</div>
+<article class='card'>
+  <a href='produit-kit-jardin-zen-starter.html'>
+    <img src='assets/img/kit-jardin-zen-starter.jpg' alt='Kit jardin zen starter' loading='lazy'>
+  </a>
+  <div class='content'>
+    <h3><a href='produit-kit-jardin-zen-starter.html'>Kit jardin zen starter</a></h3>
+    <div class='small'>Sélection Zenfeel</div>
   </div>
 </article>
 
-<article class="card" data-title="Carte cadeau Zenfeel">
-  <a href="produit-carte-cadeau-zenfeel.html"><img class="thumb" src="assets/img/carte-cadeau-zenfeel.jpg" alt="Carte cadeau Zenfeel"></a>
-  <div class="content">
-    <h3><a href="produit-carte-cadeau-zenfeel.html">Carte cadeau Zenfeel</a></h3>
-    <div class="small">Coffrets & Cadeaux</div>
+<article class='card'>
+  <a href='produit-lampe-shoji-bois-washi.html'>
+    <img src='assets/img/lampe-shoji-bois-washi.jpg' alt='Lampe shoji bois washi' loading='lazy'>
+  </a>
+  <div class='content'>
+    <h3><a href='produit-lampe-shoji-bois-washi.html'>Lampe shoji bois washi</a></h3>
+    <div class='small'>Sélection Zenfeel</div>
   </div>
 </article>
 
   </div>
 </div></section>
 
-<footer><div class="container small">© 2025 Zenfeel — Site statique. Images générées localement.</div></footer>
+<footer>
+  <div class="container small wrap">
+    <div class="links">
+      <a href="a-propos.html">À-propos</a>
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="conditions-utilisation.html">Conditions d’utilisation</a>
+      <a href="politique-confidentialite.html">Politique de confidentialité</a>
+      <a href="cookies.html">Cookies</a>
+      <a href="accessibilite.html">Accessibilité</a>
+      <a href="plan-du-site.html">Plan du site</a>
+    </div>
+    <div class="legal">© 2025 Zenfeel — Tous droits réservés</div>
+  </div>
+</footer>
 <script src="assets/fix-local.js"></script>
 </body></html>

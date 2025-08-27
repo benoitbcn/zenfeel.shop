@@ -1,99 +1,102 @@
-<!doctype html><html lang="fr"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Zenfeel — Calme, simplicité, authenticité. — Zenfeel</title>
-<meta name="description" content="Zenfeel — Catalogue statique.">
-<link rel="stylesheet" href="assets/styles.css">
-</head><body>
-<header><div class="container nav">
-  <a class="brand" href="index.html"><img src="assets/img/default.jpg" alt="Zenfeel" /></a>
-  <nav class="small">
-    <a href="collections.html">Collections</a> ·
-    <a href="produits.html">Tous les produits</a> ·
-    <a href="faq.html">FAQ</a>
-  </nav>
-  <input id="search" type="search" placeholder="Rechercher un article…" style="max-width:420px">
-</div></header>
-<script>
-document.addEventListener("input",e=>{
- if(e.target.id!=="search")return;
- const q=e.target.value.toLowerCase();
- document.querySelectorAll("[data-title]").forEach(el=>{el.style.display=(el.dataset.title||"").toLowerCase().includes(q)?"":"none";});
-});
-</script>
-
-<section class="section"><div class="container">
-  <div class="kicker">Site catalogue</div>
-  <h1>Zenfeel — Calme, simplicité, authenticité.</h1>
-  <p class="small">8 collections, 48 fiches. Ce site ne vend pas directement.</p>
-  <div class="grid cols-4">
-    
-<article class="card" data-title="Méditation">
-  <a href="collection-meditation.html"><img class="thumb" src="assets/img/_covers/meditation.jpg" alt="Méditation"></a>
-  <div class="content">
-    <div class="kicker">Méditation</div>
-    <div class="small">Bols, coussins, malas et accessoires.</div>
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zenfeel — Catalogue</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icon-180.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/icon-16.png">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="stylesheet" href="assets/styles.css">
+  <style>/* append */ 
+  .grid{display:grid;gap:18px}
+  .grid.cols-4{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+  .card{background:var(--card,#121821);border:1px solid var(--border,#1b2431);border-radius:18px;overflow:hidden}
+  .card .content{padding:12px 14px}
+  .brand img{height:24px}
+  </style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <img src="assets/brand/zenfeel-wordmark.svg" alt="Zenfeel" />
+    </a>
+    <nav>
+      <a href="collections.html">Collections</a>
+      <a href="produits.html">Tous les produits</a>
+      <a href="guides.html">Guides</a>
+      <a href="marque.html">Logos</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+    </nav>
   </div>
-</article>
+</header>
 
-<article class="card" data-title="Ambiance">
-  <a href="collection-ambiance.html"><img class="thumb" src="assets/img/_covers/ambiance.jpg" alt="Ambiance"></a>
-  <div class="content">
-    <div class="kicker">Ambiance</div>
-    <div class="small">Encens, bougies, sprays et diffuseurs.</div>
+<section class="section">
+  <div class="container">
+    <div class="kicker">Site catalogue</div>
+    <h1>Zenfeel — Calme, simplicité, authenticité.</h1>
+    <p class="small">8 collections, 48 fiches. Ce site ne vend pas directement.</p>
+
+    <div class="grid cols-4">
+      <article class="card">
+        <a href="collection-meditation.html"><img class="cover" src="assets/img/_covers/meditation.jpg" alt="Méditation"></a>
+        <div class="content"><h3><a href="collection-meditation.html">Méditation</a></h3><div class="small">Bols, coussins, malas et accessoires.</div></div>
+      </article>
+
+      <article class="card">
+        <a href="collection-ambiance.html"><img class="cover" src="assets/img/_covers/ambiance.jpg" alt="Ambiance"></a>
+        <div class="content"><h3><a href="collection-ambiance.html">Ambiance</a></h3><div class="small">Encens, bougies, sprays et diffuseurs.</div></div>
+      </article>
+
+      <article class="card">
+        <a href="collection-decor-zen.html"><img class="cover" src="assets/img/_covers/decor-zen.jpg" alt="Décor zen"></a>
+        <div class="content"><h3><a href="collection-decor-zen.html">Décor zen</a></h3><div class="small">Fontaines, statues, jardins zen, bonsaïs.</div></div>
+      </article>
+
+      <article class="card">
+        <a href="collection-textiles-yoga.html"><img class="cover" src="assets/img/_covers/textiles-yoga.jpg" alt="Textiles & Yoga"></a>
+        <div class="content"><h3><a href="collection-textiles-yoga.html">Textiles & Yoga</a></h3><div class="small">Tapis, serviettes, housses, kimono.</div></div>
+      </article>
+
+      <article class="card">
+        <a href="collection-coffrets-cadeaux.html"><img class="cover" src="assets/img/_covers/coffrets-cadeaux.jpg" alt="Coffrets & Cadeaux"></a>
+        <div class="content"><h3><a href="collection-coffrets-cadeaux.html">Coffrets & Cadeaux</a></h3><div class="small">Coffrets thématiques & cartes cadeaux.</div></div>
+      </article>
+
+      <article class="card">
+        <a href="collection-the-ceremonie.html"><img class="cover" src="assets/img/_covers/the-ceremonie.jpg" alt="Thé & Cérémonie"></a>
+        <div class="content"><h3><a href="collection-the-ceremonie.html">Thé & Cérémonie</a></h3><div class="small">Théières, chawan, matcha et accessoires.</div></div>
+      </article>
+
+      <article class="card">
+        <a href="collection-bien-etre-sonore.html"><img class="cover" src="assets/img/_covers/bien-etre-sonore.jpg" alt="Bien‑être sonore"></a>
+        <div class="content"><h3><a href="collection-bien-etre-sonore.html">Bien‑être sonore</a></h3><div class="small">Carillons, koshi, tambours océan, bols cristal.</div></div>
+      </article>
+
+      <article class="card">
+        <a href="collection-rituels-bains.html"><img class="cover" src="assets/img/_covers/rituels-bains.jpg" alt="Rituels & Bains"></a>
+        <div class="content"><h3><a href="collection-rituels-bains.html">Rituels & Bains</a></h3><div class="small">Sels, bombes de bain, huiles et accessoires.</div></div>
+      </article>
+    </div>
   </div>
-</article>
+</section>
 
-<article class="card" data-title="Décor zen">
-  <a href="collection-decor-zen.html"><img class="thumb" src="assets/img/_covers/decor-zen.jpg" alt="Décor zen"></a>
-  <div class="content">
-    <div class="kicker">Décor zen</div>
-    <div class="small">Fontaines, statues, jardins zen, bonsaïs.</div>
+<footer>
+  <div class="container small" style="padding:12px 0 20px;border-top:1px solid #1a2330;margin-top:20px">
+    © 2025 Zenfeel — Tous droits réservés · 
+    <a href="mentions-legales.html">Mentions légales</a> ·
+    <a href="conditions-utilisation.html">Conditions d’utilisation</a> ·
+    <a href="politique-confidentialite.html">Politique de confidentialité</a> ·
+    <a href="cookies.html">Cookies</a> ·
+    <a href="accessibilite.html">Accessibilité</a> ·
+    <a href="plan-du-site.html">Plan du site</a>
   </div>
-</article>
+</footer>
 
-<article class="card" data-title="Textiles & Yoga">
-  <a href="collection-textiles-yoga.html"><img class="thumb" src="assets/img/_covers/textiles-yoga.jpg" alt="Textiles & Yoga"></a>
-  <div class="content">
-    <div class="kicker">Textiles & Yoga</div>
-    <div class="small">Tapis, serviettes, housses, kimono.</div>
-  </div>
-</article>
-
-<article class="card" data-title="Coffrets & Cadeaux">
-  <a href="collection-coffrets-cadeaux.html"><img class="thumb" src="assets/img/_covers/coffrets-cadeaux.jpg" alt="Coffrets & Cadeaux"></a>
-  <div class="content">
-    <div class="kicker">Coffrets & Cadeaux</div>
-    <div class="small">Coffrets thématiques & cartes cadeaux.</div>
-  </div>
-</article>
-
-<article class="card" data-title="Thé & Cérémonie">
-  <a href="collection-the-ceremonie.html"><img class="thumb" src="assets/img/_covers/the-ceremonie.jpg" alt="Thé & Cérémonie"></a>
-  <div class="content">
-    <div class="kicker">Thé & Cérémonie</div>
-    <div class="small">Théières, chawan, matcha et accessoires.</div>
-  </div>
-</article>
-
-<article class="card" data-title="Bien‑être sonore">
-  <a href="collection-bien-etre-sonore.html"><img class="thumb" src="assets/img/_covers/bien-etre-sonore.jpg" alt="Bien‑être sonore"></a>
-  <div class="content">
-    <div class="kicker">Bien‑être sonore</div>
-    <div class="small">Carillons, koshi, tambours océan, bols cristal.</div>
-  </div>
-</article>
-
-<article class="card" data-title="Rituels & Bains">
-  <a href="collection-rituels-bains.html"><img class="thumb" src="assets/img/_covers/rituels-bains.jpg" alt="Rituels & Bains"></a>
-  <div class="content">
-    <div class="kicker">Rituels & Bains</div>
-    <div class="small">Sels, bombes de bain, huiles et accessoires.</div>
-  </div>
-</article>
-
-  </div>
-</div></section>
-
-<footer><div class="container small">© 2025 Zenfeel — Site statique. Images générées localement.</div></footer>
 <script src="assets/fix-local.js"></script>
-</body></html>
+<link rel="stylesheet" href="assets/styles-append.css">
+</body>
+</html>

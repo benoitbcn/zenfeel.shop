@@ -1,83 +1,104 @@
-<!doctype html><html lang="fr"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+﻿<!doctype html><html lang="fr"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Thé & Cérémonie — Zenfeel</title>
-<meta name="description" content="Zenfeel — Catalogue statique.">
+<meta name="description" content="Collection : Thé & Cérémonie">
 <link rel="stylesheet" href="assets/styles.css">
 </head><body>
 <header><div class="container nav">
-  <a class="brand" href="index.html"><img src="assets/img/default.jpg" alt="Zenfeel" /></a>
-  <nav class="small">
-    <a href="collections.html">Collections</a> ·
-    <a href="produits.html">Tous les produits</a> ·
-    <a href="faq.html">FAQ</a>
-  </nav>
-  <input id="search" type="search" placeholder="Rechercher un article…" style="max-width:420px">
+<a class="brand" href="index.html"><img src="assets/brand/zenfeel-wordmark.svg" alt="Zenfeel"/></a>
+<nav>
+  <a href="collections.html">Collections</a>
+  <a href="produits.html">Tous les produits</a>
+  <a href="guides.html">Guides</a>
+  <a href="marque.html">Logos</a>
+  <a href="faq.html">FAQ</a>
+  <a href="contact.html">Contact</a>
+</nav>
 </div></header>
-<script>
-document.addEventListener("input",e=>{
- if(e.target.id!=="search")return;
- const q=e.target.value.toLowerCase();
- document.querySelectorAll("[data-title]").forEach(el=>{el.style.display=(el.dataset.title||"").toLowerCase().includes(q)?"":"none";});
-});
-</script>
 
-<section><div class="container">
-  <div class="kicker"><a href="index.html" class="small">Accueil</a> · <a href="collections.html" class="small">Collections</a> · Thé & Cérémonie</div>
+<section class='section'><div class='container'>
+  <div class='kicker'>Collection</div>
   <h1>Thé & Cérémonie</h1>
-  <p class="small">Théières, chawan, matcha et accessoires.</p>
-  <div class="grid cols-4">
+  <p class='small'>Matcha, chawan et accessoires du thé.</p>
+  <div class='grid cols-3'>
     
-<article class="card" data-title="Set matcha — Starter">
-  <a href="produit-set-matcha-starter.html"><img class="thumb" src="assets/img/set-matcha-starter.jpg" alt="Set matcha — Starter"></a>
-  <div class="content">
-    <h3><a href="produit-set-matcha-starter.html">Set matcha — Starter</a></h3>
-    <div class="small">Thé & Cérémonie</div>
+<article class='card'>
+  <a href='produit-chashaku-en-bambou.html'>
+    <img src='assets/img/chashaku-en-bambou.jpg' alt='Chashaku en bambou' loading='lazy'>
+  </a>
+  <div class='content'>
+    <h3><a href='produit-chashaku-en-bambou.html'>Chashaku en bambou</a></h3>
+    <div class='small'>Sélection Zenfeel</div>
   </div>
 </article>
 
-<article class="card" data-title="Chawan matcha noir tenmoku">
-  <a href="produit-chawan-matcha-noir-tenmoku.html"><img class="thumb" src="assets/img/chawan-matcha-noir-tenmoku.jpg" alt="Chawan matcha noir tenmoku"></a>
-  <div class="content">
-    <h3><a href="produit-chawan-matcha-noir-tenmoku.html">Chawan matcha noir tenmoku</a></h3>
-    <div class="small">Thé & Cérémonie</div>
+<article class='card'>
+  <a href='produit-chawan-matcha-noir-tenmoku.html'>
+    <img src='assets/img/chawan-matcha-noir-tenmoku.jpg' alt='Chawan matcha noir tenmoku' loading='lazy'>
+  </a>
+  <div class='content'>
+    <h3><a href='produit-chawan-matcha-noir-tenmoku.html'>Chawan matcha noir tenmoku</a></h3>
+    <div class='small'>Sélection Zenfeel</div>
   </div>
 </article>
 
-<article class="card" data-title="Fouet chasen — 100 brins">
-  <a href="produit-fouet-chasen-100-brins.html"><img class="thumb" src="assets/img/fouet-chasen-100-brins.jpg" alt="Fouet chasen — 100 brins"></a>
-  <div class="content">
-    <h3><a href="produit-fouet-chasen-100-brins.html">Fouet chasen — 100 brins</a></h3>
-    <div class="small">Thé & Cérémonie</div>
+<article class='card'>
+  <a href='produit-pichet-gong-dao-bei.html'>
+    <img src='assets/img/pichet-gong-dao-bei.jpg' alt='Pichet gong dao bei' loading='lazy'>
+  </a>
+  <div class='content'>
+    <h3><a href='produit-pichet-gong-dao-bei.html'>Pichet gong dao bei</a></h3>
+    <div class='small'>Sélection Zenfeel</div>
   </div>
 </article>
 
-<article class="card" data-title="Chashaku en bambou">
-  <a href="produit-chashaku-en-bambou.html"><img class="thumb" src="assets/img/chashaku-en-bambou.jpg" alt="Chashaku en bambou"></a>
-  <div class="content">
-    <h3><a href="produit-chashaku-en-bambou.html">Chashaku en bambou</a></h3>
-    <div class="small">Thé & Cérémonie</div>
+<article class='card'>
+  <a href='produit-set-matcha-starter.html'>
+    <img src='assets/img/set-matcha-starter.jpg' alt='Set matcha starter' loading='lazy'>
+  </a>
+  <div class='content'>
+    <h3><a href='produit-set-matcha-starter.html'>Set matcha starter</a></h3>
+    <div class='small'>Sélection Zenfeel</div>
   </div>
 </article>
 
-<article class="card" data-title="Pichet « gong dao bei »">
-  <a href="produit-pichet-gong-dao-bei.html"><img class="thumb" src="assets/img/pichet-gong-dao-bei.jpg" alt="Pichet « gong dao bei »"></a>
-  <div class="content">
-    <h3><a href="produit-pichet-gong-dao-bei.html">Pichet « gong dao bei »</a></h3>
-    <div class="small">Thé & Cérémonie</div>
+<article class='card'>
+  <a href='produit-theiere-en-verre-borosilicate-600-ml.html'>
+    <img src='assets/img/theiere-en-verre-borosilicate-600-ml.jpg' alt='Theiere en verre borosilicate 600 ml' loading='lazy'>
+  </a>
+  <div class='content'>
+    <h3><a href='produit-theiere-en-verre-borosilicate-600-ml.html'>Theiere en verre borosilicate 600 ml</a></h3>
+    <div class='small'>Sélection Zenfeel</div>
   </div>
 </article>
 
-<article class="card" data-title="Théière en verre borosilicate — 600 ml">
-  <a href="produit-theiere-en-verre-borosilicate-600-ml.html"><img class="thumb" src="assets/img/theiere-en-verre-borosilicate-600-ml.jpg" alt="Théière en verre borosilicate — 600 ml"></a>
-  <div class="content">
-    <h3><a href="produit-theiere-en-verre-borosilicate-600-ml.html">Théière en verre borosilicate — 600 ml</a></h3>
-    <div class="small">Thé & Cérémonie</div>
+<article class='card'>
+  <a href='produit-set-de-bols-7-chakras.html'>
+    <img src='assets/img/set-de-bols-7-chakras.jpg' alt='Set de bols 7 chakras' loading='lazy'>
+  </a>
+  <div class='content'>
+    <h3><a href='produit-set-de-bols-7-chakras.html'>Set de bols 7 chakras</a></h3>
+    <div class='small'>Sélection Zenfeel</div>
   </div>
 </article>
 
   </div>
 </div></section>
 
-<footer><div class="container small">© 2025 Zenfeel — Site statique. Images générées localement.</div></footer>
+<footer>
+  <div class="container small wrap">
+    <div class="links">
+      <a href="a-propos.html">À-propos</a>
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="conditions-utilisation.html">Conditions d’utilisation</a>
+      <a href="politique-confidentialite.html">Politique de confidentialité</a>
+      <a href="cookies.html">Cookies</a>
+      <a href="accessibilite.html">Accessibilité</a>
+      <a href="plan-du-site.html">Plan du site</a>
+    </div>
+    <div class="legal">© 2025 Zenfeel — Tous droits réservés</div>
+  </div>
+</footer>
 <script src="assets/fix-local.js"></script>
 </body></html>

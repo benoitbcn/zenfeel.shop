@@ -1,0 +1,5 @@
+/* Zenfeel – correctifs d'affichage */
+.card .cover{display:block;width:100%;height:210px;object-fit:cover;border-bottom:1px solid var(--border);background:#0e1520}
+@media(min-width:1024px){.card .cover{height:180px}}
+.hero img,.hero .cover{max-height:420px;width:100%;object-fit:cover;display:block}
+/* Fin correctifs */

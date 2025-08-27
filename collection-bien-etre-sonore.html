@@ -1,83 +1,104 @@
-<!doctype html><html lang="fr"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+﻿<!doctype html><html lang="fr"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Bien‑être sonore — Zenfeel</title>
-<meta name="description" content="Zenfeel — Catalogue statique.">
+<meta name="description" content="Collection : Bien‑être sonore">
 <link rel="stylesheet" href="assets/styles.css">
 </head><body>
 <header><div class="container nav">
-  <a class="brand" href="index.html"><img src="assets/img/default.jpg" alt="Zenfeel" /></a>
-  <nav class="small">
-    <a href="collections.html">Collections</a> ·
-    <a href="produits.html">Tous les produits</a> ·
-    <a href="faq.html">FAQ</a>
-  </nav>
-  <input id="search" type="search" placeholder="Rechercher un article…" style="max-width:420px">
+<a class="brand" href="index.html"><img src="assets/brand/zenfeel-wordmark.svg" alt="Zenfeel"/></a>
+<nav>
+  <a href="collections.html">Collections</a>
+  <a href="produits.html">Tous les produits</a>
+  <a href="guides.html">Guides</a>
+  <a href="marque.html">Logos</a>
+  <a href="faq.html">FAQ</a>
+  <a href="contact.html">Contact</a>
+</nav>
 </div></header>
-<script>
-document.addEventListener("input",e=>{
- if(e.target.id!=="search")return;
- const q=e.target.value.toLowerCase();
- document.querySelectorAll("[data-title]").forEach(el=>{el.style.display=(el.dataset.title||"").toLowerCase().includes(q)?"":"none";});
-});
-</script>
 
-<section><div class="container">
-  <div class="kicker"><a href="index.html" class="small">Accueil</a> · <a href="collections.html" class="small">Collections</a> · Bien‑être sonore</div>
+<section class='section'><div class='container'>
+  <div class='kicker'>Collection</div>
   <h1>Bien‑être sonore</h1>
-  <p class="small">Carillons, koshi, tambours océan, bols cristal.</p>
-  <div class="grid cols-4">
+  <p class='small'>Carillons, tambours, cristal.</p>
+  <div class='grid cols-3'>
     
-<article class="card" data-title="Carillon Koshi — Aria">
-  <a href="produit-carillon-koshi-aria.html"><img class="thumb" src="assets/img/carillon-koshi-aria.jpg" alt="Carillon Koshi — Aria"></a>
-  <div class="content">
-    <h3><a href="produit-carillon-koshi-aria.html">Carillon Koshi — Aria</a></h3>
-    <div class="small">Bien‑être sonore</div>
+<article class='card'>
+  <a href='produit-bol-en-cristal-do-c4.html'>
+    <img src='assets/img/bol-en-cristal-do-c4.jpg' alt='Bol en cristal do c4' loading='lazy'>
+  </a>
+  <div class='content'>
+    <h3><a href='produit-bol-en-cristal-do-c4.html'>Bol en cristal do c4</a></h3>
+    <div class='small'>Sélection Zenfeel</div>
   </div>
 </article>
 
-<article class="card" data-title="Carillon Koshi — Terra">
-  <a href="produit-carillon-koshi-terra.html"><img class="thumb" src="assets/img/carillon-koshi-terra.jpg" alt="Carillon Koshi — Terra"></a>
-  <div class="content">
-    <h3><a href="produit-carillon-koshi-terra.html">Carillon Koshi — Terra</a></h3>
-    <div class="small">Bien‑être sonore</div>
+<article class='card'>
+  <a href='produit-carillon-koshi-aria.html'>
+    <img src='assets/img/carillon-koshi-aria.jpg' alt='Carillon koshi aria' loading='lazy'>
+  </a>
+  <div class='content'>
+    <h3><a href='produit-carillon-koshi-aria.html'>Carillon koshi aria</a></h3>
+    <div class='small'>Sélection Zenfeel</div>
   </div>
 </article>
 
-<article class="card" data-title="Tambour océan — 16"">
-  <a href="produit-tambour-ocean-16.html"><img class="thumb" src="assets/img/tambour-ocean-16.jpg" alt="Tambour océan — 16""></a>
-  <div class="content">
-    <h3><a href="produit-tambour-ocean-16.html">Tambour océan — 16"</a></h3>
-    <div class="small">Bien‑être sonore</div>
+<article class='card'>
+  <a href='produit-carillon-koshi-terra.html'>
+    <img src='assets/img/carillon-koshi-terra.jpg' alt='Carillon koshi terra' loading='lazy'>
+  </a>
+  <div class='content'>
+    <h3><a href='produit-carillon-koshi-terra.html'>Carillon koshi terra</a></h3>
+    <div class='small'>Sélection Zenfeel</div>
   </div>
 </article>
 
-<article class="card" data-title="Bol en cristal — Do C4">
-  <a href="produit-bol-en-cristal-do-c4.html"><img class="thumb" src="assets/img/bol-en-cristal-do-c4.jpg" alt="Bol en cristal — Do C4"></a>
-  <div class="content">
-    <h3><a href="produit-bol-en-cristal-do-c4.html">Bol en cristal — Do C4</a></h3>
-    <div class="small">Bien‑être sonore</div>
+<article class='card'>
+  <a href='produit-marteau-feutre-pour-bols.html'>
+    <img src='assets/img/marteau-feutre-pour-bols.jpg' alt='Marteau feutre pour bols' loading='lazy'>
+  </a>
+  <div class='content'>
+    <h3><a href='produit-marteau-feutre-pour-bols.html'>Marteau feutre pour bols</a></h3>
+    <div class='small'>Sélection Zenfeel</div>
   </div>
 </article>
 
-<article class="card" data-title="Marteau feutré pour bols">
-  <a href="produit-marteau-feutre-pour-bols.html"><img class="thumb" src="assets/img/marteau-feutre-pour-bols.jpg" alt="Marteau feutré pour bols"></a>
-  <div class="content">
-    <h3><a href="produit-marteau-feutre-pour-bols.html">Marteau feutré pour bols</a></h3>
-    <div class="small">Bien‑être sonore</div>
+<article class='card'>
+  <a href='produit-tambour-ocean-16.html'>
+    <img src='assets/img/tambour-ocean-16.jpg' alt='Tambour ocean 16' loading='lazy'>
+  </a>
+  <div class='content'>
+    <h3><a href='produit-tambour-ocean-16.html'>Tambour ocean 16</a></h3>
+    <div class='small'>Sélection Zenfeel</div>
   </div>
 </article>
 
-<article class="card" data-title="Housse rembourrée pour bols">
-  <a href="produit-housse-rembourree-pour-bols.html"><img class="thumb" src="assets/img/housse-rembourree-pour-bols.jpg" alt="Housse rembourrée pour bols"></a>
-  <div class="content">
-    <h3><a href="produit-housse-rembourree-pour-bols.html">Housse rembourrée pour bols</a></h3>
-    <div class="small">Bien‑être sonore</div>
+<article class='card'>
+  <a href='produit-tableau-minimal-cercle-encre.html'>
+    <img src='assets/img/tableau-minimal-cercle-encre.jpg' alt='Tableau minimal cercle encre' loading='lazy'>
+  </a>
+  <div class='content'>
+    <h3><a href='produit-tableau-minimal-cercle-encre.html'>Tableau minimal cercle encre</a></h3>
+    <div class='small'>Sélection Zenfeel</div>
   </div>
 </article>
 
   </div>
 </div></section>
 
-<footer><div class="container small">© 2025 Zenfeel — Site statique. Images générées localement.</div></footer>
+<footer>
+  <div class="container small wrap">
+    <div class="links">
+      <a href="a-propos.html">À-propos</a>
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="conditions-utilisation.html">Conditions d’utilisation</a>
+      <a href="politique-confidentialite.html">Politique de confidentialité</a>
+      <a href="cookies.html">Cookies</a>
+      <a href="accessibilite.html">Accessibilité</a>
+      <a href="plan-du-site.html">Plan du site</a>
+    </div>
+    <div class="legal">© 2025 Zenfeel — Tous droits réservés</div>
+  </div>
+</footer>
 <script src="assets/fix-local.js"></script>
 </body></html>

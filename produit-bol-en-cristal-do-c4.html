@@ -1,40 +1,59 @@
-<!doctype html><html lang="fr"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Bol en cristal — Do C4 — Zenfeel</title>
-<meta name="description" content="Zenfeel — Catalogue statique.">
+﻿<!doctype html><html lang="fr"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bol en cristal do c4 — Zenfeel</title>
+<meta name="description" content="Fiche : Bol en cristal do c4">
 <link rel="stylesheet" href="assets/styles.css">
 </head><body>
 <header><div class="container nav">
-  <a class="brand" href="index.html"><img src="assets/img/default.jpg" alt="Zenfeel" /></a>
-  <nav class="small">
-    <a href="collections.html">Collections</a> ·
-    <a href="produits.html">Tous les produits</a> ·
-    <a href="faq.html">FAQ</a>
-  </nav>
-  <input id="search" type="search" placeholder="Rechercher un article…" style="max-width:420px">
+<a class="brand" href="index.html"><img src="assets/brand/zenfeel-wordmark.svg" alt="Zenfeel"/></a>
+<nav>
+  <a href="collections.html">Collections</a>
+  <a href="produits.html">Tous les produits</a>
+  <a href="guides.html">Guides</a>
+  <a href="marque.html">Logos</a>
+  <a href="faq.html">FAQ</a>
+  <a href="contact.html">Contact</a>
+</nav>
 </div></header>
-<script>
-document.addEventListener("input",e=>{
- if(e.target.id!=="search")return;
- const q=e.target.value.toLowerCase();
- document.querySelectorAll("[data-title]").forEach(el=>{el.style.display=(el.dataset.title||"").toLowerCase().includes(q)?"":"none";});
-});
-</script>
 
-<section><div class="container">
-  <div class="kicker"><a href="index.html" class="small">Accueil</a> · <a href="collections.html" class="small">Collections</a> · <a href="collection-bien-etre-sonore.html" class="small">Bien‑être sonore</a></div>
-  <div class="hero">
-    <img src="assets/img/bol-en-cristal-do-c4.jpg" alt="Bol en cristal — Do C4">
-    <div class="prose">
-      <h1>Bol en cristal — Do C4</h1>
-      <p>Quartz pur, vibration longue et enveloppante.</p>
-      <ul><li>Matériaux sélectionnés et finitions soignées</li><li>Design épuré, tons naturels, esprit zen</li><li>Expédition soignée, emballages recyclables</li></ul>
-      <p class="small">Fiche statique de démonstration (sans prix). Pour commander : contactez votre revendeur.</p>
-      <p><a class="btn" href="collection-bien-etre-sonore.html">← Retour Bien‑être sonore</a></p>
+<section class="section"><div class="container">
+  <div class="kicker">Fiche produit</div>
+  <h1>Bol en cristal do c4</h1>
+  <div class="grid cols-3">
+    <div class="card" style="grid-column: span 2;">
+      <img src="assets/img/bol-en-cristal-do-c4.jpg" alt="Bol en cristal do c4">
+      <div class="content">
+        <p class="small">Visuel produit : placez votre image dans <code>assets/img/bol-en-cristal-do-c4.jpg</code> (1200×900 recommandé).</p>
+      </div>
     </div>
+    <div class="card"><div class="content">
+      <h3>Description</h3>
+      <p>Pièce sélectionnée pour un rituel simple et authentique. Matériaux de qualité, palette naturelle, finitions sobres.</p>
+      <ul class="small">
+        <li>Dimensions : voir variantes</li>
+        <li>Matériau(x) : voir fiche technique</li>
+        <li>Origine : sélection atelier</li>
+      </ul>
+      <p><a class="btn" href="contact.html">Demander un devis</a></p>
+    </div></div>
   </div>
+  <p class="small notice">Astuce : renommez votre visuel <code>bol-en-cristal-do-c4.jpg</code> et placez‑le dans <code>assets/img/</code>. Le site l’affichera automatiquement.</p>
 </div></section>
 
-<footer><div class="container small">© 2025 Zenfeel — Site statique. Images générées localement.</div></footer>
+<footer>
+  <div class="container small wrap">
+    <div class="links">
+      <a href="a-propos.html">À-propos</a>
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="conditions-utilisation.html">Conditions d’utilisation</a>
+      <a href="politique-confidentialite.html">Politique de confidentialité</a>
+      <a href="cookies.html">Cookies</a>
+      <a href="accessibilite.html">Accessibilité</a>
+      <a href="plan-du-site.html">Plan du site</a>
+    </div>
+    <div class="legal">© 2025 Zenfeel — Tous droits réservés</div>
+  </div>
+</footer>
 <script src="assets/fix-local.js"></script>
 </body></html>
